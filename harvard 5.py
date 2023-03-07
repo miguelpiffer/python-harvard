@@ -1,4 +1,9 @@
-n=input("digite seu nome")
-print(n)
-n1=input("digite outro numero")
-print(n1)
+x = int(input("digite um numero"))
+
+if x % 2 == 0:
+    print("este número é par")
+else:
+    print("este número é impar")
+
+
+
